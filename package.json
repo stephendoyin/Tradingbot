@@ -1,0 +1,24 @@
+{
+  "name": "mytradingbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@binance/connector": "^3.5.0",
+    "axios": "^1.7.7",
+    "binance-api-node": "^0.12.9",
+    "body-parser": "^1.20.3",
+    "bybit-api": "^3.10.23",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "uuid": "^11.0.3"
+  }
+}
